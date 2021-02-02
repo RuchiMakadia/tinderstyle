@@ -18,7 +18,6 @@ class ViewController: UIViewController, SwipeCardStackDataSource, SwipeCardStack
     let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 200, height: 300))
     let viewsss = UIView(frame: CGRect(x: 30, y: 100, width: 200, height: 200))
     
-    
     private var darkShadow: UIColor = UIColor(red: 0.745, green: 0.796, blue: 0.847, alpha: 1.00) //#colorLiteral(red: 0.6823529412, green: 0.6823529412, blue: 0.7529411765, alpha: 1)
     private var lightShadow: UIColor = UIColor(red: 0.953, green: 0.976, blue: 1.000, alpha: 1.00) //#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
     private var bg_color = UIColor(red: 0.871, green: 0.918, blue: 0.965, alpha: 1.00)
