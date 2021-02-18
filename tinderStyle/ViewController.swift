@@ -124,9 +124,10 @@ class ViewController: UIViewController, SwipeCardStackDataSource, SwipeCardStack
         c_name.numberOfLines = 0
 //        c_name.minimumScaleFactor = 0.2
          let font = UIFont(name: FontsName.UnitRoundedOT.UnitRoundedOT_Bold, size: 30)
-            let fontMetrics = UIFontMetrics(forTextStyle: .body)
-        print(fontMetrics)//body
+        let fontMetrics = UIFontMetrics(forTextStyle: .body)
         c_name.font = fontMetrics.scaledFont(for: font!)
+        print(fontMetrics)//body
+        
         
     //    myBoldLabel.font = UIFont(descriptor: .preferredDescriptor(textStyle: .body, styleBold: true), size: 0)
 
@@ -491,3 +492,16 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
         return CGSize(width: 200, height: 30)
     }
 }
+
+/*struct AppFont {
+    static func getRegular(forStyle style: UIFont.TextStyle) -> UIFont? {
+        R.font.poppinsRegular(size: UIFont.preferredFont(forTextStyle: style).pointSize)
+    }
+    static func getSemiBold(forStyle style: UIFont.TextStyle) -> UIFont? {
+        R.font.poppinsSemiBold(size: UIFont.preferredFont(forTextStyle: style).pointSize)
+    }
+
+    static func getLight(forStyle style: UIFont.TextStyle) -> UIFont? {
+        R.font.poppinsLight(size: UIFont.preferredFont(forTextStyle: style).pointSize)
+    }
+}*/
