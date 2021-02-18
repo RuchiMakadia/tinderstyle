@@ -9,6 +9,7 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var lbl_subtitle: UILabel!
     @IBOutlet weak var view_card: UIView!
     @IBOutlet weak var imageVIEW: UIImageView!
     
@@ -19,21 +20,29 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //setupUI(btn_view: view_card)
+        
+        if let font = UIFont(name: FontsName.UnitRoundedOT.UnitRoundedOT_Bold, size: 20) {
+            let fontMetrics = UIFontMetrics(forTextStyle: .headline)
+            lbl_subtitle.font = fontMetrics.scaledFont(for: font)
+        }
+        
+        //lbl_subtitle.font = UIFont(name: FontsName.UnitRoundedOT.UnitRoundedOT_Bold, size: 20)
     }
     
     override func viewWillAppear(_ animated: Bool) {
             super.viewWillAppear(animated)
-        imageVIEW.frame = CGRect(x: 0, y: 64, width: view.frame.size.width, height: 650)
+        imageVIEW.frame = CGRect(x: 0, y: 64, width: view.frame.size.width, height: view.frame.size.height * 0.7)
             UIView.animate(withDuration: 0.15, animations: { [weak self] in
-                self!.imageVIEW.frame = CGRect(x: 0, y: 0, width: self!.view.frame.size.width, height: 650)
+                self!.imageVIEW.frame = CGRect(x: 0, y: 0, width: self!.view.frame.size.width, height: self!.view.frame.size.height * 0.7)
+                self!.view.layoutIfNeeded()
 //                self?.imageVIEW.makeRounded()
             })
         }
     
     @IBAction func btn_next_click(_ sender: UIButton) {
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ThirdViewController") as! ThirdViewController
+        /*let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ThirdViewController") as! ThirdViewController
         self.navigationController?.pushViewController(vc, animated: true)
-        print("nuton taped")
+        print("nuton taped")*/
     }
     
  

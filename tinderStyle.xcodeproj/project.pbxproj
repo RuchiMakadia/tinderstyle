@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041B3E3736B88191A5B1CF87 /* Pods_tinderStyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F2259E343B1A14336C1AE74 /* Pods_tinderStyle.framework */; };
 		1EE9E5AB14860606C2CB07C9 /* Pods_tinderStyleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F9A9CF7F14AD3C0F4EEAC9 /* Pods_tinderStyleTests.framework */; };
+		AB0FEBA925DBCBDF00E83306 /* TagCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0FEBA825DBCBDF00E83306 /* TagCollectionReusableView.swift */; };
+		AB0FEBAE25DBCC0500E83306 /* TagFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0FEBAD25DBCC0500E83306 /* TagFlowLayout.swift */; };
 		AB17F31925C929C0000B7C61 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB17F31825C929C0000B7C61 /* SecondViewController.swift */; };
-		AB17F31E25C92B1F000B7C61 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB17F31D25C92B1F000B7C61 /* ThirdViewController.swift */; };
+		AB35B92325CC1A900033B655 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35B92225CC1A900033B655 /* HomeViewController.swift */; };
+		AB35B92825CC1B920033B655 /* JobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35B92725CC1B920033B655 /* JobListViewController.swift */; };
+		AB35B93025CC1BB20033B655 /* SavedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35B92F25CC1BB20033B655 /* SavedListViewController.swift */; };
+		AB35B93B25CC1BC90033B655 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35B93A25CC1BC90033B655 /* MoreViewController.swift */; };
+		AB48143B25DE7C16006DB52B /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB48143925DE7C16006DB52B /* TagCollectionViewCell.swift */; };
+		AB48143C25DE7C16006DB52B /* TagCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB48143A25DE7C16006DB52B /* TagCollectionViewCell.xib */; };
+		AB548A4925CD5B32004F3C36 /* TestAnimations in Resources */ = {isa = PBXBuildFile; fileRef = AB548A4825CD5B32004F3C36 /* TestAnimations */; };
 		AB557031255D434000EC9EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB557030255D434000EC9EC7 /* AppDelegate.swift */; };
 		AB557033255D434000EC9EC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB557032255D434000EC9EC7 /* SceneDelegate.swift */; };
 		AB557035255D434000EC9EC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB557034255D434000EC9EC7 /* ViewController.swift */; };
@@ -19,6 +26,8 @@
 		AB55703D255D434600EC9EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB55703B255D434600EC9EC7 /* LaunchScreen.storyboard */; };
 		AB557048255D434700EC9EC7 /* tinderStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB557047255D434700EC9EC7 /* tinderStyleTests.swift */; };
 		AB557053255D434700EC9EC7 /* tinderStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB557052255D434700EC9EC7 /* tinderStyleUITests.swift */; };
+		ABDD84C525D3FD61002481D4 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDD84C425D3FD61002481D4 /* AppFont.swift */; };
+		ABDD84CC25D3FDA5002481D4 /* UnitRoundedOT-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ABDD84C325D3FD3E002481D4 /* UnitRoundedOT-Bold.otf */; };
 		B615C60468FC80E26D64C792 /* Pods_tinderStyle_tinderStyleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE887E46CCACCDD1319F7019 /* Pods_tinderStyle_tinderStyleUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +56,18 @@
 		6F2259E343B1A14336C1AE74 /* Pods_tinderStyle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tinderStyle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B4C133BE8C573F64B69F2F /* Pods-tinderStyleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinderStyleTests.debug.xcconfig"; path = "Target Support Files/Pods-tinderStyleTests/Pods-tinderStyleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7BF4DB91DF48B65572303C1 /* Pods-tinderStyleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinderStyleTests.release.xcconfig"; path = "Target Support Files/Pods-tinderStyleTests/Pods-tinderStyleTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB0FEBA825DBCBDF00E83306 /* TagCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCollectionReusableView.swift; sourceTree = "<group>"; };
+		AB0FEBAD25DBCC0500E83306 /* TagFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagFlowLayout.swift; sourceTree = "<group>"; };
 		AB17F31825C929C0000B7C61 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		AB17F31D25C92B1F000B7C61 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		AB35B92225CC1A900033B655 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AB35B92725CC1B920033B655 /* JobListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListViewController.swift; sourceTree = "<group>"; };
+		AB35B92F25CC1BB20033B655 /* SavedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedListViewController.swift; sourceTree = "<group>"; };
+		AB35B93A25CC1BC90033B655 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		AB48143925DE7C16006DB52B /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
+		AB48143A25DE7C16006DB52B /* TagCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagCollectionViewCell.xib; sourceTree = "<group>"; };
+		AB548A4825CD5B32004F3C36 /* TestAnimations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestAnimations; sourceTree = "<group>"; };
+		AB548A4D25CD5C50004F3C36 /* LottieLogo1_masked.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
+		AB548A5925CD5D20004F3C36 /* LottieLogo2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LottieLogo2.json; sourceTree = "<group>"; };
 		AB55702D255D434000EC9EC7 /* tinderStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinderStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB557030255D434000EC9EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB557032255D434000EC9EC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +82,8 @@
 		AB55704E255D434700EC9EC7 /* tinderStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinderStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB557052255D434700EC9EC7 /* tinderStyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinderStyleUITests.swift; sourceTree = "<group>"; };
 		AB557054255D434700EC9EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDD84C325D3FD3E002481D4 /* UnitRoundedOT-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UnitRoundedOT-Bold.otf"; sourceTree = "<group>"; };
+		ABDD84C425D3FD61002481D4 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
 		CE887E46CCACCDD1319F7019 /* Pods_tinderStyle_tinderStyleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tinderStyle_tinderStyleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A67109089E228AF57C1BAC /* Pods-tinderStyle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tinderStyle.release.xcconfig"; path = "Target Support Files/Pods-tinderStyle/Pods-tinderStyle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +93,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041B3E3736B88191A5B1CF87 /* Pods_tinderStyle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,15 +153,26 @@
 		AB55702F255D434000EC9EC7 /* tinderStyle */ = {
 			isa = PBXGroup;
 			children = (
+				AB548A4D25CD5C50004F3C36 /* LottieLogo1_masked.json */,
+				AB548A5925CD5D20004F3C36 /* LottieLogo2.json */,
+				AB548A4825CD5B32004F3C36 /* TestAnimations */,
 				AB557030255D434000EC9EC7 /* AppDelegate.swift */,
+				AB0FEBA825DBCBDF00E83306 /* TagCollectionReusableView.swift */,
 				AB557032255D434000EC9EC7 /* SceneDelegate.swift */,
 				AB557034255D434000EC9EC7 /* ViewController.swift */,
+				AB35B92225CC1A900033B655 /* HomeViewController.swift */,
 				AB17F31825C929C0000B7C61 /* SecondViewController.swift */,
-				AB17F31D25C92B1F000B7C61 /* ThirdViewController.swift */,
+				AB35B92725CC1B920033B655 /* JobListViewController.swift */,
+				AB35B92F25CC1BB20033B655 /* SavedListViewController.swift */,
+				AB0FEBAD25DBCC0500E83306 /* TagFlowLayout.swift */,
+				AB35B93A25CC1BC90033B655 /* MoreViewController.swift */,
+				ABDD84C225D3FCC5002481D4 /* Helper */,
 				AB557036255D434000EC9EC7 /* Main.storyboard */,
 				AB557039255D434600EC9EC7 /* Assets.xcassets */,
 				AB55703B255D434600EC9EC7 /* LaunchScreen.storyboard */,
 				AB55703E255D434600EC9EC7 /* Info.plist */,
+				AB48143925DE7C16006DB52B /* TagCollectionViewCell.swift */,
+				AB48143A25DE7C16006DB52B /* TagCollectionViewCell.xib */,
 			);
 			path = tinderStyle;
 			sourceTree = "<group>";
@@ -162,6 +193,15 @@
 				AB557054255D434700EC9EC7 /* Info.plist */,
 			);
 			path = tinderStyleUITests;
+			sourceTree = "<group>";
+		};
+		ABDD84C225D3FCC5002481D4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ABDD84C325D3FD3E002481D4 /* UnitRoundedOT-Bold.otf */,
+				ABDD84C425D3FD61002481D4 /* AppFont.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		D7DA75E2159D477416A3115F /* Frameworks */ = {
@@ -283,6 +323,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB55703D255D434600EC9EC7 /* LaunchScreen.storyboard in Resources */,
+				AB548A4925CD5B32004F3C36 /* TestAnimations in Resources */,
+				ABDD84CC25D3FDA5002481D4 /* UnitRoundedOT-Bold.otf in Resources */,
+				AB48143C25DE7C16006DB52B /* TagCollectionViewCell.xib in Resources */,
 				AB55703A255D434600EC9EC7 /* Assets.xcassets in Resources */,
 				AB557038255D434000EC9EC7 /* Main.storyboard in Resources */,
 			);
@@ -412,9 +455,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB35B92825CC1B920033B655 /* JobListViewController.swift in Sources */,
+				AB35B92325CC1A900033B655 /* HomeViewController.swift in Sources */,
+				ABDD84C525D3FD61002481D4 /* AppFont.swift in Sources */,
+				AB0FEBA925DBCBDF00E83306 /* TagCollectionReusableView.swift in Sources */,
 				AB17F31925C929C0000B7C61 /* SecondViewController.swift in Sources */,
 				AB557035255D434000EC9EC7 /* ViewController.swift in Sources */,
-				AB17F31E25C92B1F000B7C61 /* ThirdViewController.swift in Sources */,
+				AB35B93025CC1BB20033B655 /* SavedListViewController.swift in Sources */,
+				AB35B93B25CC1BC90033B655 /* MoreViewController.swift in Sources */,
+				AB0FEBAE25DBCC0500E83306 /* TagFlowLayout.swift in Sources */,
+				AB48143B25DE7C16006DB52B /* TagCollectionViewCell.swift in Sources */,
 				AB557031255D434000EC9EC7 /* AppDelegate.swift in Sources */,
 				AB557033255D434000EC9EC7 /* SceneDelegate.swift in Sources */,
 			);
@@ -593,8 +643,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CPX4Q57Z73;
 				INFOPLIST_FILE = tinderStyle/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -602,9 +652,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ehhs.tinderStyle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehs.tinderStyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = newtestappdev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -616,8 +666,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CPX4Q57Z73;
 				INFOPLIST_FILE = tinderStyle/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -625,9 +675,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ehhs.tinderStyle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehs.tinderStyle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = newtestappdev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

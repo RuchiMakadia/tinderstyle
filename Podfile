@@ -7,6 +7,9 @@ target 'tinderStyle' do
 
   #pod 'ZLSwipeableViewSwift'
   pod 'Shuffle-iOS'
+  #pod 'lottie-ios'
+  #pod 'TagListView', '~> 1.0'
+
 
   target 'tinderStyleTests' do
     inherit! :search_paths

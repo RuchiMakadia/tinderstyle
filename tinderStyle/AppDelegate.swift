@@ -10,10 +10,15 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+            let mainStoryboardIpad : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let showcase = mainStoryboardIpad.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+            window?.rootViewController = UINavigationController(rootViewController: showcase)
+            self.window?.makeKeyAndVisible()
+
         return true
     }
 
