@@ -152,7 +152,8 @@ class ViewController: UIViewController, SwipeCardStackDataSource, SwipeCardStack
          let font1 = UIFont(name: FontsName.UnitRoundedOT.UnitRoundedOT_Bold, size: 30)
             let fontMetrics1 = UIFontMetrics(forTextStyle: .body)
         print(fontMetrics)//body
-        job_title.font = fontMetrics1.scaledFont(for: font1!)
+        //job_title.font = fontMetrics1.scaledFont(for: font1!)
+            job_title.font = AppFont.getSemiBold(forStyle: .largeTitle)
         view_bg1.addSubview(job_title)
         
         job_title.topAnchor.constraint(equalTo: image_user.bottomAnchor, constant: 50).isActive = true
@@ -181,7 +182,7 @@ class ViewController: UIViewController, SwipeCardStackDataSource, SwipeCardStack
       //  let flowLayout = UICollectionViewFlowLayout()
             
             
-            let location = UILabel(frame: CGRect.zero)
+           /* let location = UILabel(frame: CGRect.zero)
             location.text = "Location: NewYork City"
             location.textColor = .systemGray
             location.translatesAutoresizingMaskIntoConstraints = false
@@ -230,7 +231,7 @@ class ViewController: UIViewController, SwipeCardStackDataSource, SwipeCardStack
         collectionView.leadingAnchor.constraint(equalTo: skill.leadingAnchor, constant: 60).isActive = true
         collectionView.trailingAnchor.constraint(equalTo: view_bg1.trailingAnchor, constant: -8).isActive = true
         collectionView.topAnchor.constraint(equalTo: skill.topAnchor, constant: -30).isActive = true
-        collectionView.heightAnchor.constraint(equalToConstant: 300).isActive = true
+        collectionView.heightAnchor.constraint(equalToConstant: 300).isActive = true*/
     }
         
        /* card.content?.isUserInteractionEnabled = true
@@ -493,15 +494,19 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     }
 }
 
-/*struct AppFont {
+struct AppFont {
     static func getRegular(forStyle style: UIFont.TextStyle) -> UIFont? {
-        R.font.poppinsRegular(size: UIFont.preferredFont(forTextStyle: style).pointSize)
+        UIFont(name: FontsName.UnitRoundedOT.UnitRoundedOT_Bold, size: UIFont.preferredFont(forTextStyle: style).pointSize)
+        
+        //R.font.poppinsRegular(size: UIFont.preferredFont(forTextStyle: style).pointSize)
     }
     static func getSemiBold(forStyle style: UIFont.TextStyle) -> UIFont? {
-        R.font.poppinsSemiBold(size: UIFont.preferredFont(forTextStyle: style).pointSize)
+        UIFont(name: FontsName.UnitRoundedOT.UnitRoundedOT_Bold, size: UIFont.preferredFont(forTextStyle: style).pointSize)
+        //R.font.poppinsSemiBold(size: UIFont.preferredFont(forTextStyle: style).pointSize)
     }
 
     static func getLight(forStyle style: UIFont.TextStyle) -> UIFont? {
-        R.font.poppinsLight(size: UIFont.preferredFont(forTextStyle: style).pointSize)
+        UIFont(name: FontsName.UnitRoundedOT.UnitRoundedOT_Bold, size: UIFont.preferredFont(forTextStyle: style).pointSize)
+        //R.font.poppinsLight(size: UIFont.preferredFont(forTextStyle: style).pointSize)
     }
-}*/
+}
