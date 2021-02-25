@@ -14,6 +14,7 @@
 		AB27EC7125E7CD6000718003 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27EC7025E7CD6000718003 /* KeychainItemAccessibility.swift */; };
 		AB27EC7625E7CDA300718003 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27EC7525E7CDA300718003 /* KeychainWrapper.swift */; };
 		AB27EC7B25E7CDF500718003 /* RMKeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27EC7A25E7CDF500718003 /* RMKeychainWrapper.swift */; };
+		AB27EC8025E7D01E00718003 /* langugaes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB27EC7F25E7D01E00718003 /* langugaes.swift */; };
 		AB35B92325CC1A900033B655 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35B92225CC1A900033B655 /* HomeViewController.swift */; };
 		AB35B92825CC1B920033B655 /* JobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35B92725CC1B920033B655 /* JobListViewController.swift */; };
 		AB35B93025CC1BB20033B655 /* SavedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35B92F25CC1BB20033B655 /* SavedListViewController.swift */; };
@@ -65,6 +66,7 @@
 		AB27EC7025E7CD6000718003 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		AB27EC7525E7CDA300718003 /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 		AB27EC7A25E7CDF500718003 /* RMKeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMKeychainWrapper.swift; sourceTree = "<group>"; };
+		AB27EC7F25E7D01E00718003 /* langugaes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = langugaes.swift; sourceTree = "<group>"; };
 		AB35B92225CC1A900033B655 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AB35B92725CC1B920033B655 /* JobListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListViewController.swift; sourceTree = "<group>"; };
 		AB35B92F25CC1BB20033B655 /* SavedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedListViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		AB557024255D434000EC9EC7 = {
 			isa = PBXGroup;
 			children = (
+				AB27EC7F25E7D01E00718003 /* langugaes.swift */,
 				AB55702F255D434000EC9EC7 /* tinderStyle */,
 				AB557046255D434700EC9EC7 /* tinderStyleTests */,
 				AB557051255D434700EC9EC7 /* tinderStyleUITests */,
@@ -465,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB35B92825CC1B920033B655 /* JobListViewController.swift in Sources */,
+				AB27EC8025E7D01E00718003 /* langugaes.swift in Sources */,
 				AB35B92325CC1A900033B655 /* HomeViewController.swift in Sources */,
 				ABDD84C525D3FD61002481D4 /* AppFont.swift in Sources */,
 				AB27EC7B25E7CDF500718003 /* RMKeychainWrapper.swift in Sources */,
