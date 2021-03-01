@@ -21,7 +21,6 @@
 		AB35B93B25CC1BC90033B655 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB35B93A25CC1BC90033B655 /* MoreViewController.swift */; };
 		AB48143B25DE7C16006DB52B /* TagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB48143925DE7C16006DB52B /* TagCollectionViewCell.swift */; };
 		AB48143C25DE7C16006DB52B /* TagCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB48143A25DE7C16006DB52B /* TagCollectionViewCell.xib */; };
-		AB548A4925CD5B32004F3C36 /* TestAnimations in Resources */ = {isa = PBXBuildFile; fileRef = AB548A4825CD5B32004F3C36 /* TestAnimations */; };
 		AB557031255D434000EC9EC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB557030255D434000EC9EC7 /* AppDelegate.swift */; };
 		AB557033255D434000EC9EC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB557032255D434000EC9EC7 /* SceneDelegate.swift */; };
 		AB557035255D434000EC9EC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB557034255D434000EC9EC7 /* ViewController.swift */; };
@@ -30,6 +29,7 @@
 		AB55703D255D434600EC9EC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB55703B255D434600EC9EC7 /* LaunchScreen.storyboard */; };
 		AB557048255D434700EC9EC7 /* tinderStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB557047255D434700EC9EC7 /* tinderStyleTests.swift */; };
 		AB557053255D434700EC9EC7 /* tinderStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB557052255D434700EC9EC7 /* tinderStyleUITests.swift */; };
+		ABDB800725ECAFED00D415E8 /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDB800625ECAFED00D415E8 /* HelperClass.swift */; };
 		ABDD84C525D3FD61002481D4 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDD84C425D3FD61002481D4 /* AppFont.swift */; };
 		ABDD84CC25D3FDA5002481D4 /* UnitRoundedOT-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = ABDD84C325D3FD3E002481D4 /* UnitRoundedOT-Bold.otf */; };
 		B615C60468FC80E26D64C792 /* Pods_tinderStyle_tinderStyleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE887E46CCACCDD1319F7019 /* Pods_tinderStyle_tinderStyleUITests.framework */; };
@@ -73,7 +73,6 @@
 		AB35B93A25CC1BC90033B655 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		AB48143925DE7C16006DB52B /* TagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCollectionViewCell.swift; sourceTree = "<group>"; };
 		AB48143A25DE7C16006DB52B /* TagCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TagCollectionViewCell.xib; sourceTree = "<group>"; };
-		AB548A4825CD5B32004F3C36 /* TestAnimations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestAnimations; sourceTree = "<group>"; };
 		AB548A4D25CD5C50004F3C36 /* LottieLogo1_masked.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LottieLogo1_masked.json; sourceTree = "<group>"; };
 		AB548A5925CD5D20004F3C36 /* LottieLogo2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = LottieLogo2.json; sourceTree = "<group>"; };
 		AB55702D255D434000EC9EC7 /* tinderStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tinderStyle.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +89,7 @@
 		AB55704E255D434700EC9EC7 /* tinderStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tinderStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB557052255D434700EC9EC7 /* tinderStyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tinderStyleUITests.swift; sourceTree = "<group>"; };
 		AB557054255D434700EC9EC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDB800625ECAFED00D415E8 /* HelperClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
 		ABDD84C325D3FD3E002481D4 /* UnitRoundedOT-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UnitRoundedOT-Bold.otf"; sourceTree = "<group>"; };
 		ABDD84C425D3FD61002481D4 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
 		CE887E46CCACCDD1319F7019 /* Pods_tinderStyle_tinderStyleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tinderStyle_tinderStyleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,7 +164,6 @@
 			children = (
 				AB548A4D25CD5C50004F3C36 /* LottieLogo1_masked.json */,
 				AB548A5925CD5D20004F3C36 /* LottieLogo2.json */,
-				AB548A4825CD5B32004F3C36 /* TestAnimations */,
 				AB557030255D434000EC9EC7 /* AppDelegate.swift */,
 				AB0FEBA825DBCBDF00E83306 /* TagCollectionReusableView.swift */,
 				AB557032255D434000EC9EC7 /* SceneDelegate.swift */,
@@ -212,6 +211,7 @@
 			children = (
 				ABDD84C325D3FD3E002481D4 /* UnitRoundedOT-Bold.otf */,
 				ABDD84C425D3FD61002481D4 /* AppFont.swift */,
+				ABDB800625ECAFED00D415E8 /* HelperClass.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -335,7 +335,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB55703D255D434600EC9EC7 /* LaunchScreen.storyboard in Resources */,
-				AB548A4925CD5B32004F3C36 /* TestAnimations in Resources */,
 				ABDD84CC25D3FDA5002481D4 /* UnitRoundedOT-Bold.otf in Resources */,
 				AB48143C25DE7C16006DB52B /* TagCollectionViewCell.xib in Resources */,
 				AB55703A255D434600EC9EC7 /* Assets.xcassets in Resources */,
@@ -470,6 +469,7 @@
 				AB35B92825CC1B920033B655 /* JobListViewController.swift in Sources */,
 				AB27EC8025E7D01E00718003 /* langugaes.swift in Sources */,
 				AB35B92325CC1A900033B655 /* HomeViewController.swift in Sources */,
+				ABDB800725ECAFED00D415E8 /* HelperClass.swift in Sources */,
 				ABDD84C525D3FD61002481D4 /* AppFont.swift in Sources */,
 				AB27EC7B25E7CDF500718003 /* RMKeychainWrapper.swift in Sources */,
 				AB27EC7625E7CDA300718003 /* KeychainWrapper.swift in Sources */,

@@ -156,8 +156,23 @@
                     <view key="view" contentMode="scaleToFill" id="y2V-vx-ZZX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vE6-j3-LFs">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btn_open:" destination="jbx-Df-yQs" eventType="touchUpInside" id="w85-PT-jqO"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="5jB-bK-rxD"/>
                         <color key="backgroundColor" red="0.87058823529411766" green="0.91764705882352937" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="5jB-bK-rxD" firstAttribute="trailing" secondItem="vE6-j3-LFs" secondAttribute="trailing" constant="184" id="3xu-kV-5Ru"/>
+                            <constraint firstItem="vE6-j3-LFs" firstAttribute="top" secondItem="5jB-bK-rxD" secondAttribute="top" constant="389" id="Htj-n8-4zZ"/>
+                            <constraint firstItem="5jB-bK-rxD" firstAttribute="bottom" secondItem="vE6-j3-LFs" secondAttribute="bottom" constant="399" id="ky5-tc-7bS"/>
+                            <constraint firstItem="vE6-j3-LFs" firstAttribute="leading" secondItem="5jB-bK-rxD" secondAttribute="leading" constant="184" id="xYg-oa-F17"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dTJ-xG-JLQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
